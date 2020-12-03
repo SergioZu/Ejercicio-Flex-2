@@ -50,20 +50,22 @@ img {
 }
 @media screen and (min-width:480px) {
     .contenido-principal {
+        
         /*flex aquí (sólamente tres propiedades) 3 puntos*/
-        display: flex;
-        flex-direction: row;
+       display: flex;
+       flex-flow: row  wrap-reverse;
     }
     .entrada {
         /*flex aquí (una linea, en realidad son tres propiedades en una ;) 1 punto*/
-
+       
+        flex: 2 0 35%;
     }
 }
 
 @media screen and (min-width:768px) {
     .entrada {
-        display: flex;
-        flex-direction: row;
+     
           /*flex aquí (una linea, en realidad son tres propiedades en una ;) 1 punto*/
+          flex: 3 0  33%;
     }
 }
